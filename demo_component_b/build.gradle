@@ -28,5 +28,6 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:appcompat-v7:${rootProject.supportVersion}"
+    implementation "com.android.support:appcompat-v7:${rootProject.supportVersion}"
+    implementation project(':demo_base')
 }
